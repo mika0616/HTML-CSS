@@ -70,22 +70,67 @@ margin-top: 30px;
 color: #fffS;
 }
 
-.main {
-width: 840px;
+main {
+width: 800px;
 height: ;
 /*　中央寄せのために余白を設ける　*/
 margin: 0 auto;
+/*　上下に余白を追加し見やすく調整　*/
+padding: 70px 0;
 }
 
 .blog{
-width: 600px;
-height: 1400px;
+width: 540px;
+float: left;
+/*領域内に余白を作り見やすくする*/
+margin-right: 30px;
+}
+
+.blog-headline{
+text-align: center;
+line-height: 0.6;
+border-bottom: solid 8px #f7f7f7;
+}
+
+.blog-box{
+padding-top: 50px;
+}
+
+.blog-item{
+padding-bottom: 20px;
+margin-bottom: 20px;
+border-bottom: 1px solid #f7f7f7;
+}
+
+.blog-image{
+height: 180px;
 float: left;
 }
 
+.blog-text{
+float:left;
+padding: 30px 0 0 25px;
+}
+
+.blog-text-headline{
+padding-bottom: 15px;
+}
+
+.blog-data{
+font-size: 12px;
+display: inline-block;
+}
+
+.category{
+display: inline-block;
+padding: 5px 8px;
+background-color: #acabab;
+border-radius: 3px;
+color: #fff;
+font-size: 11px;
+}
 .sidebar{
-width: 240px;
-height: 1400px;
+width: 230px;
 float: left;
 }
 
