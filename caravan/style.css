@@ -19,7 +19,13 @@ display: block;
 clear: both;
 }
 
+/*fontを指定*/
+header , h2 , nav , .main-visual , footer{
+font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header{
+position: relative;
 width: 90%;
 padding: 15px 0;
 margin: 0 auto;
@@ -30,6 +36,18 @@ text-align: center;
 header .headline{
 font-size: 32px;
 margin: 15px;
+}
+
+/*positionに関連してプロパティが付属する*/
+.social{
+position: absolute;
+top: 22px;
+right: 22px;
+}
+
+.social i{
+display: inline-block;
+margin-left: 20px;
 }
 
 .nav-list{

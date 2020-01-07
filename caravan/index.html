@@ -2,17 +2,28 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <!-- CSSファイルの読み込み -->
-  <link rel="stylesheet" href="style.css">
   <title>CARAVAN</title>
+  <!-- font awasomeのファイル　自分が作成したCSSよりも前に記述する -->
+  
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- <script src="https://kit.fontawesome.com/e3af747f76.js" crossorigin="anonymous"></script> -->
+  <!-- CSSファイル -->
+  <link rel="stylesheet" href="style.css">
+  <div class="social"></div>
 </head>
 <body>
-	<!-- ヘッダー用のdiv -->
+	<!-- header -->
 	<header>
 		<h1 class="headline">
 			<a href="index.html">CARAVAN</a>
 		</h1>
+		<div class="social">
+			<i class="fab fa-facebook-square"></i>
+			<i class="fab fa-twitter-square"></i>
+			<i class="fab fa-instagram"></i>
+		</div>
 	</header>
+	<!-- navigation -->
 	<nav>
 		<ul class="nav-list">
 			<li class="nav-list-item">
@@ -22,7 +33,7 @@
 			<li class="nav-list-item">topic</li>
 		</ul>
 	</nav>
-	 <!-- main-visual用のdiv -->
+	 <!-- main-visual -->
 	<div class="main-visual">
 		<div class="main-visual-content">
 			<p class="main-visual-text">
@@ -35,7 +46,7 @@
 			</p>
 		</div>
 	</div>
-	 <!-- main用のdiv floatするため下部にclearfixする-->
+	 <!-- main floatするため下部にclearfixする-->
 	<main class="clearfix">
 		<section class="blog">
 			<h2 class="blog-headline">Recent Blog</h2>
