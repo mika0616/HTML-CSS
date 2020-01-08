@@ -123,6 +123,7 @@ border-bottom: 1px solid #f7f7f7;
 
 .blog-image{
 height: 180px;
+width: 270px;
 float: left;
 }
 
@@ -172,7 +173,7 @@ width: 230px;
 float: left;
 }
 
-.sidebar-headline{
+.sidebar-headline, .instagram-headline, .categories-headline{
 border-bottom: 8px solid #f7f7f7;
 text-align: center;
 line-height: 0.6;
@@ -183,9 +184,9 @@ padding: 50px 0;
 }
 
 .popular-text , .categories-text{
-padding: 5px;
+padding-bottom: 5px;
 border-bottom: 1px solid #f7f7f7;
-margin: 5px;
+margin-bottom: 5px;
 }
 
 .popular-text:last-child , .categories-text:last-child{
@@ -235,4 +236,69 @@ background-color: #848282;
 
 .footer-text{
 color: #fff;
+}
+
+/*responsiveに関するCSS*/
+/*スマートフォンサイズ~425*/
+@media screen and (max-width: 425px){
+  header {
+  width: 100%;
+  }
+  .nav-list {
+  width: 100%;
+  }
+
+  .nav-list-item {
+  display: block;
+  }
+
+  .social {
+   display: none;
+  }
+
+  .main-visual-content{
+  width: 100%;
+  }
+
+  main{
+  width: 100%;
+  }
+
+  .blog{
+  width: 100%;
+  margin: 0;
+  }
+
+  .blog-box {
+  padding-left: 2%;
+  padding-right: 2%;
+  }
+
+  .blog-image{
+  width: 49%;
+  }
+
+  .blog-text{
+  width: 49%;
+  padding-top: 5px;
+  }
+
+  .sidebar{
+  width: 100%;
+  padding-right: 3%;
+  padding-left:3%;
+  float: none;
+  }
+
+  .instagram-box{
+  width: 48%;
+  padding-top: 48%;
+  }
+
+  .instagram-box:nth-child(odd){
+  margin-right: 4%;
+  }
+ .pagination { 
+  margin-bottom: 50px;
+
 }
